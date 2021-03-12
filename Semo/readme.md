@@ -2,6 +2,12 @@
 
 ### 2021.03.12
 
+### git 상태확인
+
+- git status
+
+  
+
 #### git branch
 
 - git branch => branch 확인
@@ -20,3 +26,9 @@
 ### 파일 pull
 
 - git pull origin 가져올 브랜치명 => 현재 설정 branch에 추가됨
+
+
+
+### 디렉토리 삭제
+
+- git rm -r 디렉토리명
