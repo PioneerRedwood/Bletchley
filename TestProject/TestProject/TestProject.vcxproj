@@ -139,7 +139,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp" />
+    <ClCompile Include="CPP_Ref_Test.cpp" />
+    <ClCompile Include="DataStorage.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NetworkClient.cpp" />
+    <ClCompile Include="NetworkManager.cpp" />
+    <ClCompile Include="NetworkServer.cpp" />
+    <ClCompile Include="Packet.cpp" />
+    <ClCompile Include="Stream.cpp" />
+    <ClCompile Include="StreamWrapper.cpp" />
+    <ClCompile Include="Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStorage.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="NetworkClient.h" />
+    <ClInclude Include="NetworkManager.h" />
+    <ClInclude Include="NetworkServer.h" />
+    <ClInclude Include="predef.h" />
+    <ClInclude Include="Stream.h" />
+    <ClInclude Include="StreamWrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="LOG.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
