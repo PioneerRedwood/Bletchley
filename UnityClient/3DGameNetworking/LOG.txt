@@ -1,0 +1,2 @@
+2021-03-12 21:16:02 WSAStartup success
+2021-03-12 21:16:02 socket creation success
